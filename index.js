@@ -1,3 +1,5 @@
 module.exports = {
-    rules: {},
+    extends: [
+        './core/index.js',
+    ],
 }
