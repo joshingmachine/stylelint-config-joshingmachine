@@ -18,9 +18,12 @@ module.exports = {
         'function-name-case': 'lower',
         'function-parentheses-newline-inside': 'always-multi-line',
         'function-parentheses-space-inside': 'never-single-line',
-        'function-url-quotes': [ 'never', {
-            except: [],
-        }],
+        'function-url-quotes': [
+            'never',
+            {
+                except: [],
+            },
+        ],
         'function-whitespace-after': 'always',
     },
 }
