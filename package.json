@@ -4,6 +4,8 @@
   "description": "Stylelint config based on Josh Smith's preferences",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint **/*.js",
+    "lint:fix": "eslint --fix **/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
